@@ -17,6 +17,7 @@ export class Company implements Markable {
       lat: parseFloat(faker.address.latitude()),
       lng: parseFloat(faker.address.longitude()),
     };
+    this.color = 'red';
   }
 
   markerContent(): string {
